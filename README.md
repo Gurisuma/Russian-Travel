@@ -10,6 +10,6 @@
 
 ------
 
-Ссылка на GitHub Pages:
+Ссылка на GitHub Pages: https://gurisuma.github.io/Russian-Travel/
 
 
