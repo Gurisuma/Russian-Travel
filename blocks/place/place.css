@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(../fonts/Inter-Black.ttf);
+    font-weight: normal;
+    color: black;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(../fonts/Inter-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(../fonts/Inter-Regular.ttf);
+    font-weight: normal;
+}
+
+.place {
+    display: grid;
+    grid-template-columns: 19fr 20fr;
+    grid-template-rows: repeat(2, min-content);
+    grid-auto-flow: column;
+    column-gap: 3vw;
+    row-gap: 48px;
+}
+
+@media screen and (max-width: 767px) {
+    
+    .place {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, min-content);
+        column-gap: 3vw;
+        row-gap: 32px;
+    }
+}    

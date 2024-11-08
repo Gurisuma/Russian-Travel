@@ -1,0 +1,10 @@
+.lead__image-trains {
+    position: absolute;
+    width: 95%;
+    top: 15%;
+    left: 2vw;
+    padding-bottom: 26.7%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../../../images/lead-trains.svg);
+}

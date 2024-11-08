@@ -1,0 +1,17 @@
+.cover__caption {
+    position: absolute;
+    left: auto;
+    top: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+@media screen and (max-width: 767px) {
+
+    .cover__caption {
+        gap: 16px;
+        width: 100%;
+    }
+}    

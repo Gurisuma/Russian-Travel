@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(../fonts/Inter-Black.ttf);
+    font-weight: normal;
+    color: black;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(../fonts/Inter-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(../fonts/Inter-Regular.ttf);
+    font-weight: normal;
+}
+
+.footer {
+    margin: 92px auto 24px;
+    width: calc(100vw - 96px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+
+
+    .footer {
+        align-self: flex-start;
+        margin: 64px 5vw 24px;
+        flex-direction: column;
+        justify-content: space-between; 
+        align-items: flex-start;
+        gap: 48px;
+    }
+}    

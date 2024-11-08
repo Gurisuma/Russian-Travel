@@ -1,0 +1,13 @@
+.cover__background {
+    width: 100%;
+    opacity: 0.8;
+    transition: 0.3s ease;
+}
+
+@media screen and (min-width: 1280px) {
+
+    .cover__background {
+        width: 100%;
+    }
+    
+} 

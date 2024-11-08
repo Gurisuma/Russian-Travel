@@ -1,0 +1,19 @@
+.header__lang {
+    font-size: 1.5rem;
+    font-weight: normal;
+    align-self: flex-end;
+    color: #FFFFFF;
+
+}
+
+@media screen and (max-width: 767px) {
+
+
+    .header__lang {
+        font-size: 1.1rem;
+        line-height: 1.1;
+        font-weight: normal;
+    
+    }
+
+}    

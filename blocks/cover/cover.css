@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(../fonts/Inter-Black.ttf);
+    font-weight: normal;
+    color: black;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(../fonts/Inter-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(../fonts/Inter-Regular.ttf);
+    font-weight: normal;
+}
+
+
+.cover {
+    position: relative;
+    width: 100%;
+    height: max-content;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.cover:hover .cover__background {
+    opacity: 0.25;
+}
+
+@media screen and (max-width: 767px) {
+
+    .cover {
+        margin-top: 66px;      
+    }
+}    
